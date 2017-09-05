@@ -1,4 +1,4 @@
-Vue.component('bars', {
+Vue.component('list', {
     template: '<ul><li v-for="item in items" v-if="item.show" v-on:click="hide(item, $event)">{{item.label}}</li></ul>',
     props: ['items'],
     methods:{
